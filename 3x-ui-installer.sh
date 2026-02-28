@@ -650,7 +650,7 @@ if [[ -f $XUIDB ]]; then
     }
   },
   "tcpSettings": {
-    "acceptProxyProtocol": false,
+    "acceptProxyProtocol": true,
     "header": {
       "type": "none"
     }
