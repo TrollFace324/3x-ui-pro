@@ -252,7 +252,7 @@ upstream www {
 
 server {
     listen 443;
-    proxy_pass $sni_name;
+    proxy_pass 127.0.0.1:54321;
     ssl_preread on;
 }
 
